@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio Nathan Pires Dantas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Menu de navegação fixo -->
+  <header>
+    <nav id="menu">
+      <a href="#sobre" class="active">Sobre mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" tabindex="0">
+      <h1>Sobre mim</h1>
+      <p>Olá! Meu nome é <strong>Nathan Pires Dantas</strong>. Sou apaixonado por tecnologia, análise de dados e segurança da informação. Atualmente, atuo como estagiário na área de Governança de Dados na Serasa Experian. No meu tempo livre, gosto de programar, ler e criar projetos que me desafiam a aprender sempre mais.</p>
+      <p><strong>Hobbies:</strong> jogar videogames, caminhadas e fotografia.</p>
+    </section>
+
+    <!-- Seção Formação Educacional -->
+    <section id="formacao" tabindex="0">
+      <h2>Formação Educacional e Idiomas</h2>
+      <ul>
+        <li><strong>Superior de Tecnologia:</strong> Segurança da Informação - UNIAFRAN/Cruzeiro do Sul Virtual (Ibitinga) - 04/2025 – 12/2026 (Cursando)</li>
+        <li><strong>Bacharelado:</strong> Ciência da Computação - Centro Universitário Internacional UNINTER (São Carlos) - 02/2024 – Atual (Cursando)</li>
+        <li><strong>Ensino Médio:</strong> E.E Profº Marivaldo Carlos Degan (São Carlos) - 01/2019 – 12/2019 (Formado)</li>
+      </ul>
+
+      <h3>Idiomas</h3>
+      <ul>
+        <li>Português (Nativo)</li>
+        <li>Inglês (Básico/Intermediário)</li>
+      </ul>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio" tabindex="0">
+      <h2>Portfólio</h2>
+      <p>Aqui estão alguns dos projetos que desenvolvi, com links para acesso:</p>
+      <ul>
+        <li><a href="https://login-v2-master.vercel.app/?fbclid=PAZXh0bgNhZW0CMTEAAac199BoDWrDsolZjKTme0-N5wzBD9EoCEk5q0QY4y3VOVAgGpMrPeRxgvGhCA_aem_oJPKpUuEsXpMB47SDZ7IfQ" target="_blank" rel="noopener noreferrer">Outofthered - Projeto Web</a></li>
+        <li><a href="https://meuamorbruna.netlify.app/?fbclid=PAZXh0bgNhZW0CMTEAAaempu015LSilgrXcgPIljKlLBT5B3WH30OqiZyhToJsE_lLSj3ipOYcW00OuA_aem_9fW2BbpkdtRY7acFT-mz4A" target="_blank" rel="noopener noreferrer">Pedido de casamento para meu amor</a></li>
+      </ul>
+
+      <h3>Experiência Profissional</h3>
+      <ul>
+        <li><strong>Agosto 2023 - Atual:</strong> Estagiário em Governança de Dados na Serasa Experian, São Carlos</li>
+        <li><strong>Agosto 2022 - Agosto 2023:</strong> Jovem Aprendiz na Serasa Experian, São Carlos</li>
+        <li><strong>Fevereiro 2021 - Julho 2022:</strong> Jovem Aprendiz no Grupo Piccin, São Carlos</li>
+        <li><strong>Julho 2018 - Julho 2020:</strong> Jovem Aprendiz na Honda Brasil, Itirapina</li>
+      </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" tabindex="0">
+      <h2>Contato</h2>
+      <p><strong>Endereço:</strong> São Carlos, CEP 13573265</p>
+      <p><strong>Telefone:</strong> (16) 99363-5702</p>
+      <p><strong>Email:</strong> <a href="mailto:nathan.pires755@gmail.com">nathan.pires755@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nathanpires-084b501b4" target="_blank" rel="noopener noreferrer">linkedin.com/in/nathanpires-084b501b4</a></p>
+
+      <form id="contactForm" onsubmit="return enviarFormulario(event)">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Seu email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
